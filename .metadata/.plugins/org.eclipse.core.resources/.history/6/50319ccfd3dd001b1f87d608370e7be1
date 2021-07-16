@@ -1,0 +1,25 @@
+package application;
+
+import entities.carroNovo;
+
+public class Program {
+
+	public static void main(String[] args) {
+		
+		
+		CarroNovo = carronovo new CarroNovo();
+		
+		
+		carronovo.setMontadora("Gustavo Franco");
+		carronovo.setRg("920211023");
+		carronovo.setCartao("130203433343");
+		
+		//System.out.println("Nome : " + funcionario.getNome());
+		//System.out.println("RG : " + funcionario.getRg());
+		//System.out.println("Cartão : " + funcionario.getCartao());
+		
+		System.out.println(funcionario);
+		
+	}
+
+}

@@ -1,0 +1,9 @@
+package entities;
+
+public class Aluno {
+	
+	private String formadeingresso;
+	
+	private void realizaravaliacao();
+
+}

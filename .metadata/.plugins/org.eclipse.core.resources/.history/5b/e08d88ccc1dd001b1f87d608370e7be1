@@ -1,0 +1,9 @@
+package entities;
+
+public class Vaca extends Animal {
+
+	public String som() {
+		return "A vaca " + getNome() + "faz barulho: Muuuu!";
+	}
+	
+}

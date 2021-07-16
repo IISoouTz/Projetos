@@ -1,0 +1,9 @@
+package entities;
+
+public class Zebra extends Animal {
+
+	public Zebra () {
+		
+	}
+	
+}

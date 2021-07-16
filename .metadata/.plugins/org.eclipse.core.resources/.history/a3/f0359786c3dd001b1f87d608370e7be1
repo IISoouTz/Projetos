@@ -1,0 +1,16 @@
+package application;
+
+import entities.Cachorro;
+
+public class Program {
+
+	public static void main(String[] args) {
+		
+		Cachorro cachorrinho = new Cachorro ();
+		cachorrinho.setNome("Ozzy");
+		System.out.println (cachorrinho.som());
+		
+
+	}
+
+}

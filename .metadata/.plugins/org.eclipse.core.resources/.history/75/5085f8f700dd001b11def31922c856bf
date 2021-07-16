@@ -1,0 +1,11 @@
+package entities;
+
+public class Pessoa {
+
+	private String matricula;
+	private String nome;
+	private String endereco;
+	private String bairro;
+	private double salario;
+	private String sexo;
+}

@@ -1,0 +1,15 @@
+package entities;
+
+public class carroSemiNovo extends carroNovo {
+
+	
+public carroSemiNovo() {
+		
+	}
+	
+	public carroSemiNovo(String nome, String cnpj, int totalFuncionarios) {
+		super(nome);
+		this.cnpj=cnpj;
+		this.totalFuncionarios=totalFuncionarios;
+	}
+}

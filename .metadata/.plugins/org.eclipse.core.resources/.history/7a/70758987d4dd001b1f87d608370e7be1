@@ -1,0 +1,28 @@
+package application;
+
+import entities.carroNovo;
+
+import java.util.Scanner;
+
+public class Program {
+
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner (System.in);
+		
+		carroNovo = carroN new carroNovo();
+		
+		
+		carronovo.setMontadora("Fiat");
+		carronovo.setanoFabricacao("2017");
+		carronovo.setpreco("70000");
+		
+		//System.out.println("Nome : " + funcionario.getNome());
+		//System.out.println("RG : " + funcionario.getRg());
+		//System.out.println("Cartão : " + funcionario.getCartao());
+		
+		System.out.println(funcionario);
+		
+	}
+
+}

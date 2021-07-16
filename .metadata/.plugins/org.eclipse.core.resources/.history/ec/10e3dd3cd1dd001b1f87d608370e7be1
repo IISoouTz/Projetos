@@ -1,0 +1,17 @@
+package entities;
+
+public class carroSemiNovo extends carroNovo {
+
+	
+public carroSemiNovo() {
+		
+	public float valorAdcional;
+	
+	}
+	
+	public carroSemiNovo(String montadora, int anoFabricacao, float preco, float valorAdicional) {
+		super(montadora, anoFabricacao, preco);
+		this.cnpj=cnpj;
+		this.totalFuncionarios=totalFuncionarios;
+	}
+}

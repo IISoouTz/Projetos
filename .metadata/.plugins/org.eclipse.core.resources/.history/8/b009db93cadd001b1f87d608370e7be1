@@ -1,0 +1,8 @@
+package entities;
+
+public class PessoaJuridica {
+
+	private int cnpj;
+	private int totalFuncionarios;
+	
+}

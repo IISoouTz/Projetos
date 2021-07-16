@@ -1,0 +1,18 @@
+package application;
+
+import entities.Aluno;
+
+public class Program {
+
+	public static void main(String[] args) {
+		
+		Aluno aluno = new Aluno();
+		
+		aluno.setMatricula("Etec Itaquera");
+		aluno.setNome("Gustavo Franco");
+		aluno.setEndereco("Rua Andréas de Silva");
+		aluno.setBairro("Guaianazes");
+		aluno.setSexo("Masculino");
+	}
+
+}

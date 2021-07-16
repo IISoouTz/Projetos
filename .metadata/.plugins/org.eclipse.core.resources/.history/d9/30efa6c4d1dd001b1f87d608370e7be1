@@ -1,0 +1,26 @@
+package entities;
+
+public class carroSemiNovo extends carroNovo {
+
+	
+	public float valorAdcional;
+	
+	public carroSemiNovo() {
+	
+	}
+
+	public carroSemiNovo(String montadora, int anoFabricacao, float preco, float valorAdicional) {
+		super(montadora, anoFabricacao, preco);
+		this.valorAdicional=valorAdicional;
+		this.valorAdicional=valorAdicional;
+	}
+	
+	public float getValorAdcional() {
+		return valorAdcional;
+	}
+
+	public void setValorAdcional(float valorAdcional) {
+		this.valorAdcional = valorAdcional;
+	}
+	
+}
